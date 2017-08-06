@@ -25,8 +25,10 @@ call itself
 
 But it runs, with the expected results (infinite output).
 
-TODO
-----
+Conclusion
+----------
 
-Add a recursion predicate that yields a termination condition.
+Yes, it works fine. But the extra complication that comes along with
+managing `argc` and `argv` on recursive calls to `main()` obscures the
+simple beauty of it.
 

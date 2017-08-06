@@ -17,7 +17,7 @@ int main(int argc, char ** argv) {
 
     // Try calling main() recursively (but not infinitely).
     if (argc > 1) {
-        main(argc - 1, argv);
+        main(argc - 1, argv); // Yeah, yeah...technically it's too long.
     }
 
     printf("returning from main(); global = %d\n", global);
