@@ -14,7 +14,7 @@ allclean: clean
 	rm -fv $(target)
 
 test: $(target)
-	./$(target) A B C
+	./$(target) A B C D E F G H I J
 
 vi:
 	vi $(source)
